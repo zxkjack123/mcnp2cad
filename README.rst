@@ -12,6 +12,15 @@ iGeom-like implementation will be supported by other groups.**
 
 The following groups intend to support such implementations:
 
+* CNERG will develop an iGeom-like interface as part of a Trelis & Cubit
+  plugin that uses this library to import MCNP geometry into Trelis/Cubit
+
+* The SIGMA team will develop an iGeom-like interface as part of an
+  implementation of CGM that is based on the OpenCascade solid modeling
+  engine.  This version may support a command line tool.
+
+The following groups intend to support such implementations:
+
 * CNERG_ will develop an iGeom-like interface as part of a Trelis_ & Cubit_
   plugin that uses this library to import MCNP geometry into Trelis/Cubit.
 
