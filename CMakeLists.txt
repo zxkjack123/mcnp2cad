@@ -29,7 +29,11 @@ SET(LIB_SRC
     geometry.cpp
     geometry.hpp
     volumes.cpp
-    volumes.hpp)
+    volumes.hpp
+    GQ_Characterize.cpp
+    GQ_Characterize.hpp
+    test_GQ.cpp
+)
 
 add_library(mcnp2cad SHARED ${LIB_SRC})
-target_link_libraries(mcnp2cad ${IGEOM_LIB} armadillo)
+target_link_libraries(mcnp2cad ${IGEOM_LIB})
